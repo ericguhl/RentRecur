@@ -1,0 +1,151 @@
+<HTML>
+<HEAD>
+    
+    <META charset="utf-8">
+    <META http-equiv="X-UA-Compatible" content="IE=edge">
+    <META name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <META name="description" content="">
+    <META name="author" content="">
+    <LINK rel="icon" href="../../favicon.ico">
+
+    <TITLE>Sign Up</TITLE>
+
+    <!-- Bootstrap core CSS -->
+    <LINK rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <SCRIPT src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></SCRIPT>  
+
+    
+        
+    <!-- Custom styles for this template -->
+    <LINK href="../HowItWorks/HowItWorks.css" rel="stylesheet">
+    <LINK href="signup.css" rel="stylesheet">
+    
+</HEAD>
+<BODY>
+    
+<DIV id="contentcontainer">
+    
+    <DIV class="navbar-wrapper">
+        
+        <DIV class="inner">
+            <A class="navbar-brand" class="active" href="../FrontPage/FrontPage.html">
+                <IMG alt="Brand" id="logo" src="../FrontPage/RecurLogo.png" style="width:40px; position: relative; top: -20px; left: -50px"/>
+            </A>
+            
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            
+            <NAV>
+                <UL class="nav masthead-nav">
+                    <LI><A href="../HowItWorks/HowItWorks.html" class="navIcon">How It Works</A></LI>
+                    <LI><A href="../SignIn/SignIn.html" class="navIcon">Log-in</A></LI>
+                    <LI><A href="../SignUp/SignUp.html" class="navIcon">Sign Up</A></LI>
+                </UL>
+            </NAV>
+        </DIV>
+    </DIV>
+    
+    <DIV class="jumbotron" id="coverPicture">
+        
+        <DIV class="container">
+            <H1>Join Recur Today</H1>
+            <P>Join the movement to consolidate the rentals process and empower both renters and lenders of equipment.</P>
+            <a href="#" class="btn btn-lg btn-default" style="background-color: white; color: #b30000;">Renter</a>
+            <a href="#" class="btn btn-lg btn-default" style="background-color: #b30000; color: white;">Lender</a>
+        </DIV>
+    </DIV>
+    <DIV id=registratoinouterbox">
+        <DIV id="registrationbox">
+            <DIV id=surveyintro class=box>
+                <H1>Registration Form</H1>
+            </DIV> 
+        
+            <DIV id="backgroundinfo" class="box" style="clear: left;">
+                <P>
+                    <strong>BACKGROUND INFORMATION</strong>
+                </P>
+                
+                <P> <LABEL class="mylabel" for="ShopName"><em>Shop Name</em></LABEL>
+                <INPUT type="text" name="ShopName" id="ShopName" value=""/>
+                </P>
+                
+                <P> <label class="mylabel" for="firstname"><em>First Name</em></label>
+                <INPUT type="text" name="firstname" id="firstname" value=""/>
+                </P>
+                
+                <P> <label class="mylabel" for="lastname"><em>Last Name</em></label>
+                <INPUT type="text" name="lastname" id="lastname" value=""/>
+                </P>
+                
+            </DIV>
+            
+            <DIV class=box>
+                <P>
+                    <STRONG>ACCOUNT TYPE</STRONG>
+                </P>
+                
+                <P>
+                    <INPUT type="radio" name="r" value="1"/> <Strong>RENTER:</Strong> Individual <br/>
+                    <INPUT type="radio" name="r" value="2"/> <Strong>LENDER:</Strong> Indvidual <br/>
+                    <INPUT type="radio" name="r" value="3"/> <Strong>LENDER:</Strong> Enterprise <br/>
+                </P>
+                
+                <P>
+                    <em>SHOP TYPE (IF ENTERPRISE LENDER)</em><br/>
+                    <input type="checkbox" name="c1" value="1"/> SURF <br/>
+                    <input type="checkbox" name="c2" value="2"/> BIKE <br/>
+                    <input type="checkbox" name="c3" value="3"/> SKI <br/>
+                </P>
+            </DIV>
+            
+            <DIV class=box>
+                <P>
+                    <STRONG>CONTACT INFORMATION</STRONG>
+                </P>
+            
+                <P> <LABEL class="mylabel" for="phone"><em>Phone Number</em></LABEL>
+                <INPUT type="text" name="phone" id="phone" value=""/>
+                </P>
+            
+                <P>
+                    <EM>Areas of Interest</EM> <br/>
+                    <SELECT name="myselect" multiple>
+                        <OPTION value="1">Los Angeles</OPTION>
+                        <OPTION value="2">San Diego</OPTION>
+                        <OPTION value="3">Malibu</OPTION>
+                        <OPTION value="4">Mammoth Mountain</OPTION>
+                        <OPTION value="5">Big Bear Lake</OPTION>
+                    </SELECT>
+                </P>
+                
+                <P>
+                    <EM>Address</EM> <br/>
+                    <TEXTAREA></TEXTAREA>
+                </P>
+                
+                <P>
+                    <INPUT type="reset" name="reset" value="Clear Form"/>
+                    <INPUT type="submit" name="submit" value="Submit"/>
+                </P>
+            </DIV>
+        </DIV>
+    </DIV>
+    
+    <DIV id="footer">
+            <footer>
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>&copy; 2016 Rent Recur, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </footer>
+        </DIV>
+    
+</DIV>
+
+</BODY>
+</HTML>

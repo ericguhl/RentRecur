@@ -1,0 +1,26 @@
+#coverPicture {
+    background-image: url("SignUp.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 5px #777777;
+    height: 600px;
+}
+
+.box{
+            margin: 10px;
+            padding: 10px;
+            float: left;
+            background-color: transparent;
+            text-align: left;
+            color: #BBB;
+        }
+        
+#registrationbox {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#registrationouterbox {
+    
+}

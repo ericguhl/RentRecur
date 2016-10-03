@@ -1,0 +1,32 @@
+body {
+    background-image: url("Cover.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.navbarLogo {
+    width: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+.icons {
+    width: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.navbar {
+    background: transparant;
+}
+
+#frontcover {
+    height: 1000px;
+    box-shadow: 10px 10px 5px #AAAAAA;
+}
+
+#secondcover {
+    background-color: black;
+    height: 750px;
+}
