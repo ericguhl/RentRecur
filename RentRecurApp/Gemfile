@@ -1,10 +1,5 @@
 source 'https://rubygems.org'
 
-#integrating bootstrap with SASS into ROR
-gem 'bootstrap-sass', '~> 3.2.0'
-
-#automatically adds proper vendor prefixes to CSS code when compiled
-gem 'autoprefixer-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
