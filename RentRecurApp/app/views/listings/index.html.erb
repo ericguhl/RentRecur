@@ -11,6 +11,10 @@
       <td><%= listing.title %></td>
       <td><%= listing.text %></td>
       <td><%= link_to 'Show', listing_path(listing) %></td>
+      <td><%= link_to 'Edit', edit_listing_path(listing) %></td>
+      <td><%= link_to 'Destroy', listing_path(listing),
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %></td>
     </tr>
   <% end %>
 </table>
