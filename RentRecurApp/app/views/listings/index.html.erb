@@ -1,0 +1,16 @@
+<h1>Listing listings</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+  </tr>
+
+  <% @listings.each do |listing| %>
+    <tr>
+      <td><%= listing.title %></td>
+      <td><%= listing.text %></td>
+      <td><%= link_to 'Show', listing_path(listing) %></td>
+    </tr>
+  <% end %>
+</table>
