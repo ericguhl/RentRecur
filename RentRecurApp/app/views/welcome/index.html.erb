@@ -1,3 +1,67 @@
-<h1>Welcome#index</h1>
-<%= link_to 'All Listings', controller: 'listings' %>
-<%= link_to 'New Listing', new_listing_path %>
+<html>
+
+  <head>
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='style.css'/>
+
+  </head>
+
+  <body id="background">
+
+    <div class="header">
+      <div class="container">
+        <ul class="nav">
+          <li> <a href="/about"> About </a></li>
+          <li> <a href="/team"> Team </a></li>
+          <li> <a href="/signup"> Signup </a></li>
+          <li> <a href="/login"> Login </a></li>
+          <li> <%= link_to 'All Listings', controller: 'listings' %> </li>
+<li> <%= link_to 'New Listing', new_listing_path %> </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <div class="main">
+          <img id="logo" src="assets/logo.png">
+          <h1>RentRecur</h1>
+          <h2>Innovation through Peer-to-peer rentals.</h2>
+          <a href="/about">Get Started.</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="supporting">
+      <div class="container">
+        <div class="col">
+          <img src="https://www.petfinder.com/wp-content/uploads/2012/11/152177319-declawing-cats-632x475-e1354303246526-632x353.jpg">
+          <h2>Design</h2>
+          <p>Make your projects look great and interact beautifully.</p>
+          <a class="btn-default" href="#">LEARN MORE</a>
+        </div>
+        <div class="col">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/broadway/develop.svg">
+          <h2>Develop</h2>
+          <p>Use modern tools to turn your design into a web site</p>
+          <a class="btn-default" href="#">LEARN MORE</a>
+        </div>
+        <div class="col">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/broadway/deploy.svg">
+          <h2>Deploy</h2>
+          <p>Use modern tools to turn your design into a web site</p>
+           <a class="btn-default" href="#">LEARN MORE</a>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+
+      </div>
+    </div>
+  </body>
+</html>
+
